@@ -11,19 +11,19 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class=" ">
+<div class="content">
     <div class="heading">
        <h2>our menu</h2>
         <div class="underline"></div>
     </div>
     
-    <div class="button-container">
+    <div class="button-container" id="buttonContainer">
         <ul>
             <li>
-                <button>All</button>
+                <button id="allProducts">All</button>
             </li>
             <li>
-                <button>Breakfast</button>
+                <button id="breakfast">Breakfast</button>
             </li>
             <li>
                 <button>Lunch</button>
@@ -37,44 +37,9 @@
         </ul>
     </div>
 
-    <div class="product-container row">
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="product-card row">
-                <div class="col-xl-5 col-lg-5 col-md-4 col-sm-5 col-xs-5">
-                    <img src="./images/item-1.jpeg" alt="menu item" class="photo" />
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-8 col-sm-7 col-xs-7">
-                    <div class="product-info">
-                        <div class="header">
-                            <h4>buttermilk pancakes</h4>
-                            <h4 class="price">$15.99</h4>
-                        </div>
-                    </div>
-                    <div class="product-text">
-                        I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="product-card row">
-                <div class="col-xl-5 col-lg-5 col-md-4 col-sm-5 col-xs-5">
-                    <img src="./images/item-2.jpeg" alt="menu item" class="photo" />
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-8 col-sm-7 col-xs-7">
-                    <div class="product-info">
-                        <div class="header">
-                            <h4>buttermilk pancakes</h4>
-                            <h4 class="price">$13.99</h4>
-                        </div>
-                    </div>
-                    <div class="product-text">
-                        vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="product-container row" id="productContainer"></div>
 </div>
+
+<script src="./App.js"></script>
 </body>
 </html>

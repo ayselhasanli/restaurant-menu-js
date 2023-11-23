@@ -129,6 +129,9 @@ p {
 }
 
 /*  global classes */
+.content{
+    margin: 4rem 0;
+}
 
 .heading {
     text-align: center;
@@ -170,7 +173,10 @@ p {
     background: var(--clr-gold);
     color: var(--clr-white);
 }
-
+.active-button{
+    color: var(--clr-primary-10) !important;
+    background: var(--clr-gold) !important;
+}
 .product-container {
     margin: 0 auto;
 }
@@ -178,6 +184,7 @@ p {
 .product-card {
     background-color: transparent !important;
     border: none !important;
+    margin-top: 10px;
 }
 
 .photo {
