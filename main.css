@@ -197,10 +197,9 @@ p {
 .price {
     color: var(--clr-gold);
 }
-
 .header {
     display: flex;
-    gap: 0 2rem;
+    justify-content: space-between;
 }
 
 .header h4 {
