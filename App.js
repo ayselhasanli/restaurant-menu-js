@@ -1,4 +1,6 @@
 var productContainer = document.getElementById("productContainer")
+var buttonContainer = document.getElementById("buttonContainer")
+var categories = ["breakfast", "shakes", "dinner", "lunch"]
 var products = []
 
 window.onload = async function fetchData () {
@@ -41,5 +43,6 @@ function showProducts(category) {
     displaySection = displaySection.join("");
     productContainer.innerHTML = displaySection;
 }
+
 
 
